@@ -12,5 +12,6 @@ public class SplashScreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
         //starting main activity of the app from splash screen activity
         startActivity(new Intent(this, MainActivity.class));
+        finish();
     }
 }
